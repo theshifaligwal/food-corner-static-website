@@ -376,6 +376,275 @@ header .header-2.header-active{
     color: #333;
 }
 
+.speciality .box-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.speciality .box-container .box{
+  height: 30rem;
+  flex: 1 1 43rem;
+  margin: 1rem;
+  box-shadow:0.3rem .5rem rgba(0, 0, 0, .3);
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.speciality .box-container .box img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} 
+
+.speciality .box-container .box .info{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: tranlative(-50%);
+}
+
+.speciality .box-container .box .info h3{
+  font-size: 3rem;
+  color:#fff ;
+}
+
+.speciality .box-container .box .info p{
+  font-size: 2rem;
+  color:#eee ;
+}
+
+.speciality .icons-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+
+.speciality .icons-container .icons{
+  margin: 2rem;
+  width: 25rem;
+  text-align: center;
+}
+
+.speciality .icons-container .icons i{
+  font-size: 4rem;
+  color: #e84118;
+}
+
+.speciality .icons-container .icons h3{
+  font-size: 2rem;
+  color: #333;
+  padding: 1rem 0;
+}
+
+.speciality .icons-container .icons p{
+  font-size: 1.5rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
+
+
+.order{
+  min-height: 100vh;
+  background:url(../images/order-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 2rem;
+}
+
+.order .heading span{
+  color:#fff;
+}
+
+.order form{
+  border-radius: 1rem;
+  background:#fff;
+  width: 85%;
+  margin:2rem auto;
+  padding:2rem;
+  box-shadow: 0 .5rem 1rem #000;
+  text-align: center;
+}
+
+.order form .inputBox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.order form .inputBox input,
+.order form .inputBox select,
+.order form .inputBox textarea{
+  padding:0 1rem;
+  font-size: 1.7rem;
+  color:#333;
+  height:4rem;
+  width:49%;
+  margin:1rem 0;
+  border:.1rem solid #333;
+}
+
+.order form .inputBox input:focus,
+.order form .inputBox select:focus,
+.order form .inputBox textarea:focus{
+  border:.2rem solid var(--red);
+}
+
+.order form .inputBox textarea{
+  height:20rem;
+  padding:1rem;
+  resize: none;
+}
+
+.order form .inputBox #map{
+  height:20rem;
+  margin:1rem 0;
+  width: 49%;
+}
+
+.order form .btn{
+  color:var(--red);
+  border-color: var(--red);
+  outline-color: var(--red);
+}
+
+.order form .btn:hover{
+  color:#fff;
+}
+
+.newsletter{
+  padding: 2rem 1rem;
+  background: linear-gradient(rgba(255,255,255, .5),#fff),url(../images/letter.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.newsletter h1{
+  font-size: 4rem;
+  color: #333;
+}
+
+.newsletter p{
+  font-size: 2rem;
+  color: #333;
+}
+
+.newsletter form{
+  margin: 1rem auto;
+  padding: .5rem 1rem;
+  max-width: 60rem;
+  border-radius: 5rem;
+  box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+  display: flex;
+  align-items: center;
+  background: #fff;
+}
+
+.newsletter form input[type="email"]{
+  height: 4rem;
+  padding: 0 1rem;
+  width: 100%;
+  font-size: 1.7rem;
+  background: none;
+  border:none;
+  color: #333;
+}
+
+.newsletter form input[type="submit"]{
+  height: 3.8rem;
+  width: 17rem;
+  font-size: 1.7rem;
+  background: #e84118;
+  outline: none;
+  border:none;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5rem;
+}
+
+.newsletter form input[type="submit"]:hover{
+  letter-spacing: .1rem;
+  opacity: .8;
+  color: #fff;
+}
+
+
+.footer{
+  background:#2c3e50;
+}
+
+.footer img{
+  width: 100%;
+}
+
+.footer .box-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer .box-container .box{
+  flex:1 1 23rem;
+  margin:2rem;
+}
+
+.footer .box-container .box .heading{
+  margin:0; padding:0;
+  box-shadow: 0 .2rem .05rem #fff6;
+  margin-bottom: .5rem;
+  text-align: left;
+}
+
+.footer .box-container .box .heading span{
+  font-size: 2.5rem;
+  color:#fff;
+}
+
+.footer .box-container .box p{
+  font-size: 1.7rem;
+  color:#eee;
+  padding:1rem 0;
+}
+
+.footer .box-container .box:first-child p{
+  font-size: 1.4rem;
+}
+
+.footer .box-container .box p i{
+  padding:0 .5rem;
+  color:#fff;
+}
+
+.footer .box-container .box a{
+  font-size: 1.7rem;
+  display: block;
+  padding:.5rem 0;
+  color:#eee;
+}
+
+.footer .box-container .box a:hover{
+  text-decoration: underline;
+}
+
+.footer .credit{
+  font-size: 2rem;
+  text-align: center;
+  padding:2rem 1rem;
+  color:#fff;
+  border-top: .1rem solid rgba(255,255,255,.3);
+}
+
+.footer .credit span{
+  color:#e84118;
+}
+
 
 
 
@@ -448,6 +717,17 @@ header .header-2.header-active{
     width: 85%;
 }
 
+
+}
+
+@media (max-width:600px){
+
+  .order form .inputBox input,
+  .order form .inputBox select,
+  .order form .inputBox textarea,
+  .order form .inputBox #map{
+      width: 100%;
+  }
 
 }
 
