@@ -2,17 +2,19 @@
 ***
 
 ### About
-This is a static website contains Web pages with fixed content. Each page is coded in HTML , CSS and JAVASCRIPT and displays the same information to every visitor.
+This is website template to build hotels and restaurant websites suits for the online food center and also to promote the online delivery platform on their own.
 ***
-### Website Screenshots
+### Website Screenshot
 <div align="center">
 <img src="images/home.png" alt="" />
 </div>
 
-[Live Link](https://theshifaligwal.github.io/food-corner-static-website/)
+[Website Link](https://theshifaligwal.github.io/food-corner-static-website/)
+
 ***
 
 ### Tech Stack:
 * HTML
 * CSS
-* JAVASCRIPT
+* JavaScript
+* JQuery
